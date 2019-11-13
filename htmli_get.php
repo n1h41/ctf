@@ -1,6 +1,6 @@
 <?php
 session_start();
-print_r($_SESSION);
+//print_r($_SESSION);
 /*
 
 bWAPP, or a buggy web application, is a free and open source deliberately insecure web application.
