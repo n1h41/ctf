@@ -270,9 +270,9 @@ if(isset($_REQUEST["action"]))
     
 <header>
 
-<h1>bWAPP</h1>
+<h1>CTF</h1>
 
-<h2>an extremely buggy web app !</h2>
+<h2>Bug Bounty!</h2>
 
 </header>
 
@@ -283,10 +283,6 @@ if(isset($_REQUEST["action"]))
         <tr>
 
             <td><a href="login.php">Login</font></a></td>
-            <td><font color="#ffb717">New User</font></td>
-            <td><a href="info.php">Info</a></td>
-            <td><a href="training.php">Talks & Training</a></td>
-            <td><a href="http://itsecgames.blogspot.com" target="_blank">Blog</a></td>
 
         </tr>
 
@@ -367,18 +363,9 @@ if(isset($_REQUEST["action"]))
 
 </div>
 
-<div id="side">
-
-    <a href="http://twitter.com/MME_IT" target="blank_" class="button"><img src="./images/twitter.png"></a>
-    <a href="http://be.linkedin.com/in/malikmesellem" target="blank_" class="button"><img src="./images/linkedin.png"></a>
-    <a href="http://www.facebook.com/pages/MME-IT-Audits-Security/104153019664877" target="blank_" class="button"><img src="./images/facebook.png"></a>
-    <a href="http://itsecgames.blogspot.com" target="blank_" class="button"><img src="./images/blogger.png"></a>
-
-</div>
-
 <div id="disclaimer">
 
-    <p>bWAPP is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img style="vertical-align:middle" src="./images/cc.png"></a> &copy; 2014 MME BVBA / Follow <a href="http://twitter.com/MME_IT" target="_blank">@MME_IT</a> on Twitter and ask for our cheat sheet, containing all solutions! / Need an exclusive <a href="http://www.mmebvba.com" target="_blank">training</a>?</p>
+    <p>Created By NIHAL ABDULLA and MUHAMMED RAFI</p>
 
 </div>
 

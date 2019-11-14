@@ -45,6 +45,7 @@ if(isset($_POST["form"]) && isset($_POST["bug"]))
 <!--<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Architects+Daughter">-->
 <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<link href="https://fonts.googleapis.com/css?family=Wallpoet&display=swap" rel="stylesheet">
 
 <!--<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>-->
 <script src="js/html5.js"></script>

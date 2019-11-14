@@ -124,7 +124,7 @@ if(isset($_POST["form"]))
             }
             
 
-            header("Location: portal.php");
+            header("Location: htmli_get.php");
 
             exit;
 
@@ -157,7 +157,7 @@ if(isset($_POST["form"]))
 <!--<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>-->
 <script src="js/html5.js"></script>
 
-<title>bWAPP - Login</title>
+<title>CTF - Login</title>
 
 </head>
 
@@ -165,9 +165,9 @@ if(isset($_POST["form"]))
 
 <header>
 
-<h1>bWAPP</h1>
+<h1>CTF</h1>
 
-<h2>an extremely buggy web app !</h2>
+<h2>Bug Bounty!</h2>
 
 </header>
 
@@ -179,9 +179,6 @@ if(isset($_POST["form"]))
 
             <td><font color="#ffb717">Login</font></td>
             <td><a href="user_new.php">New User</a></td>
-            <td><a href="info.php">Info</a></td>
-            <td><a href="training.php">Talks & Training</a></td>
-            <td><a href="http://itsecgames.blogspot.com" target="_blank">Blog</a></td>
 
         </tr>
 
@@ -193,8 +190,6 @@ if(isset($_POST["form"]))
 
     <h1>Login</h1>
 
-    <p>Enter your credentials <i>(bee/bug)</i>.</p>
-
     <form action="<?php echo($_SERVER["SCRIPT_NAME"]);?>" method="POST">
 
         <p><label for="login">Login:</label><br />
@@ -204,14 +199,6 @@ if(isset($_POST["form"]))
         <input type="password" id="password" name="password" size="20" autocomplete="off"></p>
 
         <p><label for="security_level">Set the security level:</label><br />
-
-        <select name="security_level">
-
-            <option value="0">low</option>
-            <option value="1">medium</option>
-            <option value="2">high</option>
-
-        </select>
 
         </p>
 
@@ -230,54 +217,9 @@ if(isset($_POST["form"]))
 
 </div>
 
-<div id="sponsor_2">
-
-    <table>
-
-        <tr>
-
-            <td width="103" align="center"><a href="https://www.owasp.org" target="_blank"><img src="./images/owasp.png"></a></td>
-            <td width="102" align="center"><a href="https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project" target="_blank"><img src="./images/zap.png"></a></td>
-            <td width="110" align="center"><a href="https://www.netsparker.com/?utm_source=bwappapp&utm_medium=banner&utm_campaign=bwapp" target="_blank"><img src="./images/netsparker.png"></a></td>
-            <td width="152" align="center"><a href="http://www.missingkids.com" target="_blank"><img src="./images/mk.png"></a></td>
-
-        </tr>
-
-    </table>
-
-    <br />
-
-    <table>
-
-        <tr>
-
-            <td width="288" align="right"><a href="http://www.mmebvba.com" target="_blank"><img src="./images/mme.png"></a></td>
-            <td width="190" align="right"><a href="https://www.netsparker.com/?utm_source=bwappapp&utm_medium=banner&utm_campaign=bwapp" target="_blank"><img src="./images/netsparker.gif"></a></td>
-
-        </tr>
-
-    </table>
-
-</div>
-
-<div id="side">
-
-    <a href="http://twitter.com/MME_IT" target="blank_" class="button"><img src="./images/twitter.png"></a>
-    <a href="http://be.linkedin.com/in/malikmesellem" target="blank_" class="button"><img src="./images/linkedin.png"></a>
-    <a href="http://www.facebook.com/pages/MME-IT-Audits-Security/104153019664877" target="blank_" class="button"><img src="./images/facebook.png"></a>
-    <a href="http://itsecgames.blogspot.com" target="blank_" class="button"><img src="./images/blogger.png"></a>
-
-</div>
-
 <div id="disclaimer">
 
-    <p>bWAPP is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img style="vertical-align:middle" src="./images/cc.png"></a> &copy; 2014 MME BVBA / Follow <a href="http://twitter.com/MME_IT" target="_blank">@MME_IT</a> on Twitter and ask for our cheat sheet, containing all solutions! / Need an exclusive <a href="http://www.mmebvba.com" target="_blank">training</a>?</p>
-
-</div>
-
-<div id="bee">
-
-    <img src="./images/bee_1.png">
+    <p>Created By NIHAL ABDULLA and MUHAMMED RAFI</p>
 
 </div>
 

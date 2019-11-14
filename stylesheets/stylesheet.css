@@ -289,14 +289,21 @@ header h2 {
         min-width: 430px;
 }
 
-#bee {
+/*#bee {
         position: absolute;
         top: 18px;
         left: 342px;
-        height: 35px;
-        width: 35px;
+        height: 25px;
+        width: 25px;
         /*opacity:0.6; Makes the image transparant
         filter:alpha(opacity=60); For IE8 and earlier */        
+}
+#flag {
+        position: absolute;
+        top: 18px;
+        left: 32px;
+        height: 25px;
+        width: 25px;       
 }
 
 #table_yellow {
