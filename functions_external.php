@@ -1,5 +1,5 @@
 <?php
-
+$i =1;
 /*
 
 bWAPP, or a buggy web application, is a free and open source deliberately insecure web application.

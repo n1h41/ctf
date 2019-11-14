@@ -1,5 +1,10 @@
 <?php
+include("functions_external.php");
+if($i == 1)
+{
 echo '<script>alert("<flag>CoNgRaTuLaTiOnS-COMPLETED-LEVEL-3<flag>")</script>';
+$i++;
+}
 //session_start();
 /*
 
@@ -19,7 +24,6 @@ bWAPP is licensed under a Creative Commons Attribution-NonCommercial-NoDerivativ
 
 include("security.php");
 include("security_level_check.php");
-include("functions_external.php");
 include("admin/settings.php");
 include("connect.php");
 

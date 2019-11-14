@@ -136,7 +136,7 @@ $file = "";
 $directory_traversal_error = "";  
 
 function show_file($file,$link)
-{ $check='passwd.txt';
+{ $check='passwd';
     
     // Checks whether a file or directory exists    
     // if(file_exists($file))

@@ -80,7 +80,7 @@ function htmli($data)
 
 <h1>CTF</h1>
 
-<h2>an extremely buggy web app !</h2>
+<h2>Bug Bounty!</h2>
 
 </header>    
 
